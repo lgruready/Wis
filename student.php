@@ -1,0 +1,4 @@
+CREATE TABLE students(
+    id INT AUTO_INCREEN
+
+)
