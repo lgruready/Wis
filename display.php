@@ -1,3 +1,6 @@
 <?php
+include_once "dbconnect.php";
 
-include_onced
+foreach ($pdo->query('SELECT * FROM students') as $row) {
+    echo $row['name'] . '<br>';
+}
